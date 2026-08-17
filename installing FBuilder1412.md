@@ -1,9 +1,5 @@
 <div align="center"><h4 style="margin-bottom:3px">installing Forms Builder 14.1.2</h4><h4>-everything on the table; one line launching-</h4></div>
 
-[TOC]
-
-
-
 ### 1. intro
 
 This is about having a minimal container that will run Forms Builder 14.1.2.0.  A little general description, that will shape the final result :
