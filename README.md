@@ -15,13 +15,13 @@ This is about having a minimal container that will run Forms Builder 14.1.2.0.  
 ### the process:
 - download files to build a simple image from Oracle repository on [github](https://github.com/oracle/docker-images/tree/main/OracleJava/21)
 - download binary installation package for Forms Builder from Oracle
-- launch 2 unix script file.
+- launch 2 unix script files.
 - one command line in terminal on host
 
 
 ### result
 You will be able to:
-- launch Forms Builder, *open, edit and save an Oracle Forms file and libraries*
+- launch Forms Builder, *open, edit and save an Oracle Forms files and libraries*
 - connect to a database with username, password and connection string like myDb.myDomain.com:4321/pdb1
 - *Forms Builder will show* on screen using windows on *host window system manager*
 
