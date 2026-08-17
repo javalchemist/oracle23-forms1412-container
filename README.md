@@ -27,4 +27,3 @@ You will be able to:
 
 ### about using on windows host
 Documentation said it is possible. Windows OS host will require certain software installation and container will get a slightly different environment variables.
-For the moment I don't intend to proceed this way.
