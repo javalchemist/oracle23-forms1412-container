@@ -40,7 +40,7 @@ Steps are elementary, easy to follow.  You need : Oracle account, 5GB storage sp
 
 - unzipp and place the resulting file  ( `fmw_14.1.2.0.0_fr_linux64.bin` ) in folder choosen to host installation
 
-- in the same folder put the silent installation file `result.file` provided here.
+- in the same folder put the silent installation file `responseFile` provided here.
 
 - you need 3 script files: `complete_installation.sh`, `install_req_pkgs.sh`, `install_config_forms.sh`. Put them together, anywhere on the host with access to folder hosting Forms  installation.
 
