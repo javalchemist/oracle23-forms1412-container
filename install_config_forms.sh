@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# Copyright (c) 2026 javalchemist
+#
+# Licensed under the Non-AI Apache 2.0 License 
 
 # install in oracle linux 9, packages required by Forms Builder installation
 
