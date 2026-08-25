@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) 2026 javalchemist
+#
+# Licensed under the Non-AI Apache 2.0 License 
 
 #
 # build container for FormsBuilder 14.1.2.0
