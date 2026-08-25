@@ -1,8 +1,8 @@
 ### container running Forms Builder 14.1.2.0 on linux host
-This is about having a minimal container that will run Forms Builder 14.1.2.0.  A little general description, that will shape the final result :
+This is about having a minimal container that will run Forms Builder 14.1.2.0. Guidelines that explains choices made in this implementation:
 
-- process of obtaining the image use *docker as requirement not as factotum*. Make an easy transit to podman.
-- Forms Builder is a final product in this container. This means is not interesting to build an image organized in layers that will be further significantly enhanced.
+- process of obtaining the image use *docker as requirement not as factotum*. Make an easy transition to podman.
+- Forms Builder is the final stage in this container. This means is not interesting to build an image organized in layers that will be further significantly enhanced.
 - installation of Forms Builder use persistence with bind volume on host
 - host should be a linux distribution. Compatibility lays mostly on *wayland* implementations and graphical display manager on host.
 
@@ -13,7 +13,7 @@ This is about having a minimal container that will run Forms Builder 14.1.2.0.  
 - linux host
 
 ### the process:
-- download files to build a simple image from Oracle repository on [github](https://github.com/oracle/docker-images/tree/main/OracleJava/21)
+- download files to build the base image from Oracle repository on [github](https://github.com/oracle/docker-images/tree/main/OracleJava/21)
 - download binary installation package for Forms Builder from Oracle
 - launch 2 unix script files.
 - one command line in terminal on host
