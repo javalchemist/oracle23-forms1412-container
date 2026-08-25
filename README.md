@@ -8,7 +8,7 @@ This is about having a minimal container that will run Forms Builder 14.1.2.0.  
 
 ### requirements
 - about 5GB host storage space
-- Oracle account allowing download of binary files from [edelivery.com](https://edelivery.oracle.com)
+- Oracle account allowing download of binary files from [edelivery.oracle.com](https://edelivery.oracle.com)
 - docker installed
 - linux host
 
