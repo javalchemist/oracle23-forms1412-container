@@ -4,7 +4,7 @@ This is about having a minimal container that will run Forms Builder 14.1.2.0. G
 - process of obtaining the image use *docker as requirement not as factotum*. Make an easy transition to podman.
 - Forms Builder is the final stage in this container. This means is not interesting to build an image organized in layers that will be further significantly enhanced.
 - installation of Forms Builder use persistence with bind volume on host
-- host should be a linux distribution. Compatibility lays mostly on *wayland* implementations and graphical display manager on host.
+- host should be a **Linux distribution**. Compatibility lays mostly on *wayland* implementations and graphical display manager on **Linux host**.
 
 ### requirements
 - about 5GB host storage space
@@ -23,7 +23,7 @@ This is about having a minimal container that will run Forms Builder 14.1.2.0. G
 You will be able to:
 - launch Forms Builder, *open, edit and save an Oracle Forms files and libraries*
 - connect to a database with username, password and connection string like myDb.myDomain.com:4321/pdb1
-- *Forms Builder will show* on screen using windows on *host window system manager*
+- *Forms Builder will show* on screen using windows on **Linux host window system manager**
 
 ### about using on windows host
 Documentation said it is possible. Windows OS host will require certain software installation and container will get a slightly different environment variables.
